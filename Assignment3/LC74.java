@@ -3,6 +3,7 @@ package Assignment3;
 public class LC74 {
     class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
+        // Binary Search in 2D matrix
         int m = matrix.length;
         int n = matrix[0].length;
         int start = 0;

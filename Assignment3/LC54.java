@@ -6,6 +6,7 @@ import java.util.List;
 public class LC54 {
     class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
+        // Spiral order traversal of matrix
         List<Integer> res = new ArrayList<>();
         int start = 0;
         int end = matrix[0].length - 1;

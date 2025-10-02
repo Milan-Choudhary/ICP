@@ -1,5 +1,6 @@
 class Solution {
     public int[] searchRange(int[] nums, int target) {
+        // Count first and last occurence of target in nums
         int[] num = new int[2];
         int first = -1;
         int last = -1;

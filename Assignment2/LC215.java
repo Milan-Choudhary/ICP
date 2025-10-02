@@ -6,6 +6,7 @@ public class LC215 {
 }
 class Solution {
     public int findKthLargest(int[] nums, int k) {
+        // Min-Heap to store k largest elements
         
         PriorityQueue<Integer> q = new PriorityQueue<>();
 

@@ -2,6 +2,8 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
+        // Deque to store indices of useful elements in every window
+        // Elements are in decreasing order in deque
          int n = nums.length;
         int[] result = new int[n - k + 1];
         Deque<Integer> dq = new ArrayDeque<>(); 

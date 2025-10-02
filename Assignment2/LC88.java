@@ -4,6 +4,7 @@ public class LC88 {
     
 }class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
+        // Merge nums2 into nums1 in sorted order
         int i = m - 1;
         int j = n - 1;
         int k = nums1.length - 1;

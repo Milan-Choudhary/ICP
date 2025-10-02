@@ -3,6 +3,7 @@ package Assignment3;
 public class LC200 {
     class Solution {
     public int numIslands(char[][] grid) {
+        // DFS to count number of islands in grid
         boolean[][] visited = new boolean[grid.length][grid[0].length];
         int count = 0;
 

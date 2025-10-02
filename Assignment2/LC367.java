@@ -5,6 +5,7 @@ public class LC367 {
 }
 class Solution {
     public boolean isPerfectSquare(int num) {
+        // Binary Search to find if num is a perfect square
         if(num == 1){
             return true;
         }
