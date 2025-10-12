@@ -2,6 +2,7 @@ package Assignment7;
 
 public class LC62 {
     class Solution {
+    // Dynamic Programming with Memoization to find unique paths in a grid
     public int uniquePaths(int m, int n) {
         
         int[][] dp = new int[m][n];

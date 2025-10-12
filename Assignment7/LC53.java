@@ -2,6 +2,7 @@ package Assignment7;
 
 public class LC53 {
     class Solution {
+    // Kadane's Algorithm to find the maximum subarray sum
     public int maxSubArray(int[] nums) {
        int sum = nums[0];
        int maxsum = nums[0];
